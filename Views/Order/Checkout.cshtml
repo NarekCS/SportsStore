@@ -3,10 +3,12 @@
 <h2>Check out now</h2>
 <p>Please enter your details, and we'll ship your goods right away!</p>
 
+<div asp-validation-summary="All" class="text-danger"></div>
+
 <form asp-action="Checkout" method="post">
     <h3>Ship to</h3>
     <div class="form-group">
-        <label>Name:</label><input asp-for="Name" class="form-control" />
+        <label>Name:</label><input asp-for="Name" class="form-control" />       
     </div>
     <h3>Address</h3>
     <div class="form-group">
@@ -33,10 +35,10 @@
     <h3>Options</h3>
     <div class="checkbox">
         <label>
-            <input asp-for="GiftWrap"/>Gift wrap these items
+            <input asp-for="GiftWrap" />Gift wrap these items
         </label>
     </div>
     <div class="text-center">
-        <input class="btn btn-primary" type="submit" value="Complete Order"/>
+        <input class="btn btn-primary" type="submit" value="Complete Order" />
     </div>
 </form>
