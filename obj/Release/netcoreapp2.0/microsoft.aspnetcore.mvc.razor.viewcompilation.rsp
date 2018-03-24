@@ -1,0 +1,20 @@
+C:\Users\narek\Documents\Visual Studio 2017\SportsStore
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=SportsStore
+--content-root=C:\Users\narek\Documents\Visual Studio 2017\SportsStore
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Account\Login.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Admin\Edit.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Admin\Index.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Cart\Index.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Error\Error.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Order\Checkout.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Order\Completed.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Order\List.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Product\List.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Shared\Components\CartSummary\Default.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Shared\Components\NavigationMenu\Default.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Shared\ProductSummary.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Shared\_AdminLayout.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\Shared\_Layout.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\_ViewImports.cshtml
+--file=C:\Users\narek\Documents\Visual Studio 2017\SportsStore\Views\_ViewStart.cshtml

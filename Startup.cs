@@ -49,9 +49,14 @@ namespace SportsStore
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseBrowserLink();
+                app.UseStatusCodePages();
+                //app.UseBrowserLink();
             }
-            app.UseStatusCodePages();
+            else
+            {
+                app.UseExceptionHandler("/Error");
+            }
+            
             app.UseStaticFiles();
             app.UseSession();
             app.UseAuthentication();
@@ -77,8 +82,8 @@ namespace SportsStore
                     name: null,
                     template: "{controller=Product}/{action=List}/{id?}");
             });
-            SeedData.EnsurePopulated(app);
-            IdentitySeedData.EnsurePopulated(app);
+            //SeedData.EnsurePopulated(app);
+            //IdentitySeedData.EnsurePopulated(app);
         }
     }
 }
