@@ -5,6 +5,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\NarekSportsStore2 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\NarekSportsStore3 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\SportsStoreNarek - Web Deploy.pubxml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="wwwroot\" />
   </ItemGroup>
 

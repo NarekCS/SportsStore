@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="SportsStoreNarek" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="NarekSportStore4" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\narek\\Documents\\Visual\ Studio\ 2017\\SportsStore\\obj\\Release\\netcoreapp2\.0\\PubTmp\\Out\\$" />
+  </parameter>
+  <parameter name="SportsStore.Models.AppIdentityDbContext" description="" value="Data Source=tcp:nareksportstore4dbserver.database.windows.net,1433;Initial Catalog=identity;User Id=KingNarek@nareksportstore4dbserver;Password=kIn%Narek" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\narek\\Documents\\Visual\ Studio\ 2017\\SportsStore\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\SportsStore\.Models\.AppIdentityDbContext\.sql$" />
+  </parameter>
+  <parameter name="SportsStore.Models.ApplicationDbContext" description="" value="Data Source=tcp:nareksportstore4dbserver.database.windows.net,1433;Initial Catalog=products;User Id=KingNarek@nareksportstore4dbserver;Password=kIn%Narek" tags="dbfullsql">
+    <parameterEntry kind="ProviderPath" scope="dbfullsql" match="^C:\\Users\\narek\\Documents\\Visual\ Studio\ 2017\\SportsStore\\obj\\Release\\netcoreapp2\.0\\PubTmp\\EFSQLScripts\\SportsStore\.Models\.ApplicationDbContext\.sql$" />
   </parameter>
 </parameters>

@@ -12541,9 +12541,6 @@
   },
   "project": {
     "version": "1.0.0",
-    "restoreSettings": {
-      "hideWarningsAndErrors": true
-    },
     "restore": {
       "projectUniqueName": "C:\\Users\\narek\\Documents\\Visual Studio 2017\\SportsStore\\SportsStore.csproj",
       "projectName": "SportsStore",
