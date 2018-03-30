@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAwq6wtXbN5kakSbxciEB/kwAAAAACAAAAAAAQZgAAAAEAACAAAACWuLtU5zIIxJ4LuJBI1P4pBb8BsmHC3To2henqCeeDEQAAAAAOgAAAAAIAACAAAAD7mvGbZSwhsIniHaoXJWuxMnSvBAhvTNqEHDge0h+nlYAAAAA20Ng+SOcWjYa6CBsppS1y+1ygmUSsywyFkL+LY6hwBmNFBzyQEHudIITXAOEoZOsfj84celnrtF1dLeqEbe/WurQvCgTZ2h2jgE6TWZq64Vj8u0ARO+dh10tVRd+r1pJPqQ8KDb2obaNdrY8QoNd8t7aO3OxopfGaFkGYnP3wx0AAAAAA1RoAqJzmbcyQn7DfpF3ugBzpi3QlK9suaBTR4dig4eZfpbiX2AH9mViKffRwfceDA1gU9kNQER0/vTCYxvjG</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <AzureDBConnectionStrings Include="Data Source=tcp:newsportsstorenarekdbserver.database.windows.net,1433;Initial Catalog=identity;User Id=KingNarek@newsportsstorenarekdbserver;Password=kIn%Narek" />
+    <AzureDBConnectionStrings Include="Data Source=tcp:newsportsstorenarekdbserver.database.windows.net,1433;Initial Catalog=products;User Id=KingNarek@newsportsstorenarekdbserver;Password=kIn%Narek" />
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="SportsStore.Models.AppIdentityDbContext">
+      <Value>Data Source=tcp:newsportsstorenarekdbserver.database.windows.net,1433;Initial Catalog=identity;User Id=KingNarek@newsportsstorenarekdbserver;Password=kIn%Narek</Value>
+    </EFMigrations>
+    <EFMigrations Include="SportsStore.Models.ApplicationDbContext">
+      <Value>Data Source=tcp:newsportsstorenarekdbserver.database.windows.net,1433;Initial Catalog=products;User Id=KingNarek@newsportsstorenarekdbserver;Password=kIn%Narek</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
